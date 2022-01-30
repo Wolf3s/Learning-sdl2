@@ -1,6 +1,6 @@
 /******************************************************
 ** SDL2 Console hello world                          **
-** Copyright Andr� Guilherme Mendes da Luz Bastos   **
+** Copyright André Guilherme Mendes da Luz Bastos   **
 ** Made with C++ 20 and tested on code::blocks 20.03 **
 *******************************************************/
 
