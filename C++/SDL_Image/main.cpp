@@ -1,7 +1,7 @@
 /***************************************************
 ****************************************************
 ** Copyright Andr� Guilherme Mendes da Luz Bastos**
-** rewritten in C and SDL2                        **
+** Made with C++ and SDL2                        **
 ** Description: Loads a bmp image                 **
 ****************************************************
 ****************************************************/
@@ -62,7 +62,6 @@ int main(int args, char* argv[])
 		{
 			std::cout << "could not load the media";
 		}
-
 		SDL_BlitSurface(image, NULL, surface, NULL);
 		SDL_UpdateWindowSurface(window);
 		SDL_Delay(1000);
