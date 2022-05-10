@@ -62,13 +62,12 @@ int main(int args, char* argv[])
    }
    else
    {
-
-	   if (load_image())
+	   if(load_image())
 	   {
 		   printf("could not load the image %s \n", SDL_GetError);
 	   }
 	    SDL_BlitSurface(image, NULL, surface, NULL);
-		SDL_UpdateWindowSurface(window);
+	    SDL_UpdateWindowSurface(window);
 	    SDL_Delay(6000);
    }  
    shutdown();  
