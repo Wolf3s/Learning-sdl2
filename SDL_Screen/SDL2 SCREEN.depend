@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1643905484 source:c:\users\andre\downloads\nova pasta\main.cpp
-	<SDL.h>
-	<stdio.h>
-	<SDL.h>
-	<iostream>
-
