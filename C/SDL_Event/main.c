@@ -60,9 +60,9 @@ int main(int args, char* argv[])
    }
    else
    {
-     if(load_image())
+         if(load_image())
 	 {
-		 printf("could not load the image%s\n", SDL_GetError);
+            printf("could not load the image %s\n", SDL_GetError);
 	 }
 	 
 	 bool quit = false;
